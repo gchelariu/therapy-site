@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Site prezentare">
+        <meta name="keywords" content="psiholog, cabinet, terapie">
+        <meta name="author" content="Gabriel Chelariu">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Psiholog Andreea Fischer</title>
+        <link rel="shortcut icon" type="image/jpg" href="imagini/logo.png"/>
+        <!-- Font awesome CDN -->
+        <!-- <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+            rel="stylesheet"> -->
+        <!-- Scroll reveal JS library-->
+        <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+        <!-- <script -->
+        <!-- src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+        <link href="css/main.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,700&display=swap">
+        <!-- Icons fontAwesome 6.2.0-->
+        <script src="https://kit.fontawesome.com/8a0cea46b1.js"
+            crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+        <section class="navigation">
+            <nav>
+                <div class="logo">
+                    <a href="index.html"><img src="imagini/logo.png">Psiholog
+                        Andreea Fischer</a>
+                </div>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li class="nav-item">
+                            <a href="#aboutMe" class="nav-link">Despre mine</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#servicii" class="nav-link">Servicii</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="ComingSoon.html" class="nav-link">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+        <button id="back-to-top-btn"><i class="fa fa-angle-double-up"></i></button>
+        <section class="header" id="header">
+            <div class="text-box">
+                <h1>Consiliere</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quis, tempora vero? <br>Vel, a molestiae amet eligendi
+                    repellat
+                    quas quam accusantium corrupti excepturi sit minus illum
+                    voluptatibus totam eius dolorum odio.</p>
+                <a href="#contact" class="text-box-button">Programeaza o
+                    intalnire!</a>
+            </div>
+        </section>
+
+        <!-- Despre mine -->
+        <section class="aboutMe" id="aboutMe">
+            <h1>Despre mine</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <div class="row">
+                <div class="aboutMe-col">
+                    <h3>Tratamentul depresiei</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ipsam voluptatibus cupiditate, animi veritatis tenetur
+                        blanditiis recusandae molestiae ex perspiciatis cum odit
+                        iusto ipsum delectus quisquam minus exercitationem
+                        officiis quibusdam sunt!</p>
+                </div>
+                <div class="aboutMe-col">
+                    <h3>Managementul stresului</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ipsam voluptatibus cupiditate, animi veritatis tenetur
+                        blanditiis recusandae molestiae ex perspiciatis cum odit
+                        iusto ipsum delectus quisquam minus exercitationem
+                        officiis quibusdam sunt!</p>
+                </div>
+                <div class="aboutMe-col">
+                    <h3>Rezolvarea anxietatii</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ipsam voluptatibus cupiditate, animi veritatis tenetur
+                        blanditiis recusandae molestiae ex perspiciatis cum odit
+                        iusto ipsum delectus quisquam minus exercitationem
+                        officiis quibusdam sunt!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Servicii -->
+        <section id="servicii" class="servicii">
+            <h2>Servicii</h2>
+            <table class="servicii-table">
+                <thead>
+                    <tr>
+                        <th>Consult</th>
+                        <th>Pret</th>
+                        <th>Durata</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Consiliere psihologica</th>
+                        <th>200 RON</th>
+                        <th>50 minute</th>
+                    </tr>
+                    <tr>
+                        <th>Consiliere psihologica online</th>
+                        <th>200 RON</th>
+                        <th>50 minute</th>
+                    </tr>
+                    <tr>
+                        <th>Consiliere in dezvoltare personala</th>
+                        <th>200 RON</th>
+                        <th>50 minute</th>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p><i class="fa-solid fa-mobile"></i> Telefon: 0722 555 999</p>
+            <p><i class="fa-solid fa-envelope"></i> E-mail: andreeaMaEnerveaza@gmail.com</p>
+            <div class="contact-section">
+                <div class="contact-box">
+                    <form action="">
+                        <h3>Scrie-mi solicitarea ta si voi reveni catre tine in
+                            cel mai scurt timp.</h3>
+                        <input type="text" class="input-field"
+                            placeholder="Numele dumneavoastra">
+                        <input type="text" class="input-field"
+                            placeholder="E-mailul dumneavoastra">
+                        <input type="text" class="input-field"
+                            placeholder="Telefon">
+                        <textarea type="text" class="input-field textarea-field"
+                            placeholder="Mesaj">
+                        </textarea>
+                        <button class="btn">Trimite</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <p>Bld. Dinicu Golescu, Nr. 35, Bl. ?, Sc ?, Etaj ?,
+                        Interfon ?, Sector 1 </p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1166.8683610573967!2d26.07352361978506!3d44.44587500172384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b201e4b47637cf%3A0x4f1cfa79278843cd!2sBulevardul%20Dinicu%20Golescu%2035%2C%20Bucure%C8%99ti!5e0!3m2!1sro!2sro!4v1665301448323!5m2!1sro!2sro"
+                        width="600" height="450" style="border:0;"
+                        allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- CopyRight -->
+        <footer>
+            <div class="container">
+                <div class="footer-content-divider animate-bottom">
+                    <div class="social-media">
+                        <h4>Urmareste</h4>
+                        <ul class="social-icons">
+                            <li>
+                                <a
+                                    href="https://www.instagram.com/psiholog.andreea.fischer/"><i
+                                        class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.facebook.com/100075927921037/"><i
+                                        class="fab fa-facebook"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-content">
+                    <div class="footer-content-about animate-top">
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                        <p>
+                            COPYRIGHT © 2022 Psiholog Andreea Fischer
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Scriptri custom -->
+        <!-- Toogle Menus -->
+        <script src="javaScript/NavLinks.js"></script>
+        <script src="javaScript/AnchorLinksScroll.js"></script>
+        <script src="javaScript/BackToTopBtn.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    </body>
+</html>
