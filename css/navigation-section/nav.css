@@ -12,6 +12,7 @@ nav {
 }
 
 nav .logo {
+    display: flex;
     text-align: center;
 }
 
@@ -28,6 +29,11 @@ nav .logo a {
     text-transform: uppercase;
 }
 
+nav .logo .logo-name {
+    width: 140px;
+}
+
+
 nav img {
     margin-top: 4;
     width: 50px;
@@ -43,15 +49,22 @@ nav ul {
     transition: 1s;
 }
 
+.nav-links {
+    display: contents;
+    position: relative;
+    text-decoration: none;
+}
+
 nav ul li {
     display: inline-block;
     padding: 20px;
 }
 
 nav ul li a {
-    color: black;
+    color: #99c68e;
     text-decoration: none;
-    font-size: 13px;
+    font-family: kanit;
+    font-size: 15px;
     text-transform: uppercase;
 }
 
@@ -65,7 +78,7 @@ nav .fa-solid {
     width: 0%;
     height: 2px;
     /* schimba culoarea liniutei de sub meniu */
-    background: #99c68e;
+    background: #C77D2F;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -94,6 +107,7 @@ nav .fa-solid {
         transition: 1s;
         overflow-x: hidden;
         overflow-y: scroll;
+        display: inline-block;
     }
 
     .nav-links ul {

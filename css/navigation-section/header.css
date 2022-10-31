@@ -1,7 +1,7 @@
 .header {
     min-height: 65vh;
     width: 100%;
-    background-image: url("../imagini/contact.jpg");
+    background-image: url("../../imagini/bomba-bombelor1.JPG");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -43,11 +43,11 @@
 .text-box-button:hover {
     border: 1px solid aliceblue;
     /* sa fie egal cu culoarea liniutei de sub meniu */
-    background: black;;
+    background: #008b76;
 }
 
 @media(max-width: 700px) {
     .text-box h1 {
-        font-size: 20px;
+        font-size: 35px;
     }
 }

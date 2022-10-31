@@ -1,7 +1,5 @@
-@import url(nav.css);
-@import url(back-to-top-btn.css);
-@import url(header.css);
-@import url(about-me.css);
+@import url(navigation-section.css);
+@import url(about-me-section.css);
 @import url(servicii-section.css);
 @import url(contact-section.css);
 @import url(footer.css);
@@ -9,7 +7,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: kanit;
 }
 
 
@@ -30,12 +29,6 @@ p {
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
-}
-
-.row {
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
 }
 
 @media(max-width:700px) {

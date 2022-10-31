@@ -37,7 +37,8 @@ footer{
     margin-bottom: 5.4rem;
 }
 
-.footer-content-about p{
+.footer-content-about p {
+    color: rgba(236, 234, 234, 0.69);
     line-height: 2;
 }
 
