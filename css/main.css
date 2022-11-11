@@ -11,6 +11,10 @@
     font-family: kanit;
 }
 
+html {
+    scroll-behavior: smooth !important;
+}
+
 
 h1 {
     font-size: 36px;
