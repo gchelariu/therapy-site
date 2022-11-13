@@ -18,6 +18,10 @@
     font-family: kanit;
 }
 
+.aboutMe-text p{
+font-family: 'Roboto', sans-serif;
+}
+
 .aboutMe-main {
     width: 1130px;
     max-width: 95%;
@@ -35,6 +39,11 @@
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
+    text-align: justify;
+}
+
+.aboutMe-col p {
+    font-family: 'Roboto', sans-serif;
 }
 
 .aboutMe-col img {

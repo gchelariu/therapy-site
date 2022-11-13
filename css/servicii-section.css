@@ -13,6 +13,7 @@
 }
 
 .servicii-table {
+    font-family: 'Roboto', sans-serif;
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9em;
