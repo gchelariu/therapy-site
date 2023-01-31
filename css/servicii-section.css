@@ -13,20 +13,19 @@
 }
 
 .div-table {
+    border-radius: 60px 60px 0 0;
   overflow-x: scroll;
   display: grid;
   align-content: center;
-  /* align-items: center; */
 }
 
 .servicii-table {
-  font-family: "Roboto", sans-serif;
   border-collapse: collapse;
   margin: 25px 0;
   font-size: 0.9em;
   min-width: 250px;
   border-radius: 20px 20px 0 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
