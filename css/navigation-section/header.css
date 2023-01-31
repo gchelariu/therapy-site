@@ -28,6 +28,7 @@
 }
 
 .text-box-button {
+    border-radius: 20px;
     display: inline-block;
     text-decoration: none;
     color: aliceblue;
