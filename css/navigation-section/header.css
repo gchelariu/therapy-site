@@ -34,7 +34,7 @@
     border: 1px solid aliceblue;
     padding: 12px 34px;
     font-size: 13px;
-    background: #99c68e;
+    background: #96997E;
     position: relative;
     cursor: pointer;
     transition: 0.75s;
@@ -43,7 +43,7 @@
 .text-box-button:hover {
     border: 1px solid aliceblue;
     /* sa fie egal cu culoarea liniutei de sub meniu */
-    background: #008b76;
+    background: #C77D2F;
 }
 
 @media(max-width: 700px) {

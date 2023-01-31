@@ -24,7 +24,7 @@
 }
 
 .servicii thead th {
-    background-color: #99c68e;
+    background-color: #C9CAB5;
     color: #ffffff;
     text-align: center;
     /* font-weight: bold; */
@@ -45,7 +45,7 @@
 
 .servicii-table tbody tr:last-of-type {
     /* border-bottom: 2px solid #009879; */
-    border-bottom: 2px solid #99c68e;
+    border-bottom: 2px solid #C9CAB5;
 }
 
 .servicii-table tbody tr.active-row {

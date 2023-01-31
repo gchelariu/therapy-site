@@ -1,9 +1,11 @@
 footer{
     padding: 1.5rem;
     /* background-color:#A7856A; */
-    background-color: #99c68e;
+    /* background-color: #99c68e; */
+    background-color: #C9CAB5;
     /* color: #C59D5F; */
-    color: rgba(236, 234, 234, 0.69);
+    /* color: rgba(236, 234, 234, 0.69); */
+    color: black;
     text-align: center;
     position: relative;
 }
@@ -38,7 +40,8 @@ footer{
 }
 
 .footer-content-about p {
-    color: rgba(236, 234, 234, 0.69);
+    /* color: rgba(236, 234, 234, 0.69); */
+    color: black;
     line-height: 2;
 }
 
