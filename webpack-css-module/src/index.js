@@ -1,13 +1,5 @@
-import _ from 'lodash';
-import './styles.css';
+import _ from "lodash";
+import { buildHeader } from "./header";
+import "./css/styles.css";
 
-function header() {
-    const element = document.createElement('div');
-  
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    element.classList.add('test');
-  
-    return element;
-  }
-  
-  document.body.appendChild(header());
+document.body.appendChild(buildHeader());

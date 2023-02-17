@@ -1,0 +1,14 @@
+.logo {
+    display: flex;
+    text-align: center;
+    margin: 5px;
+}
+
+.logo-img {
+    width: 50px;
+}
+
+.logo-name {
+    margin: 7px 5px 7px 5px;
+    width: 140px;
+}
