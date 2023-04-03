@@ -1,0 +1,13 @@
+/* .logo {
+  padding: 0.2rem;
+} */
+
+.logo img {
+  height: 3.5rem;
+  width: auto;
+}
+
+.logo .justLogoName {
+  height: 2.5rem;
+  margin-bottom: 0.5rem;
+}

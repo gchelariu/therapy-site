@@ -1,0 +1,10 @@
+@import url(Logo.css);
+@import url(Links.css);
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    padding-top: 10px;
+}
+

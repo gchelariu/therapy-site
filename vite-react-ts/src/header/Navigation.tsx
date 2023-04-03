@@ -1,10 +1,13 @@
 import justLogo from "../assets/just-logo.png";
+import justLogoName from "../assets/just-logoName.png";
+import "../header/Navigation.css"
 
 function Navigation() {
     return (
-        <div className="header">
+        <div className="navigation">
           <div className="logo">
-            <img src={justLogo} alt="some" />
+            <img className="justLogo" src={justLogo} alt="" />
+            <img className="justLogoName" src={justLogoName} alt="" />
           </div>
           <div className="nav-links" id="navLinks">
             <ul>
