@@ -1,8 +1,12 @@
 import Navigation from "./header/Navigation";
+import AboutMe from "./about-me/AboutMe";
 
 function App() {
   return (
-    <Navigation />
+    <div>
+      <Navigation />
+      <AboutMe />
+    </div>
   );
 }
 
