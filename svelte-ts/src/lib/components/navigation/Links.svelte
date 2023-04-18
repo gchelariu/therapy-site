@@ -1,12 +1,12 @@
 <div class="links" id="navLinks">
   <ul>
-    <li class="nav-item">
+    <li >
       <a href="#aboutMe"> Despre mine </a>
     </li>
-    <li class="nav-item">
+    <li >
       <a href="#servicii"> Servicii </a>
     </li>
-    <li class="nav-item">
+    <li >
       <a href="#contact"> Contact </a>
     </li>
   </ul>
@@ -28,7 +28,6 @@
     font-size: 0.8125rem;
     background-color: #e3d8cb;
     color: black;
-
     padding: 0.625rem 1.125rem;
     border-radius: 1rem;
     border: 1px solid white;
