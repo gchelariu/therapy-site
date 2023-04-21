@@ -11,7 +11,7 @@
   <Navigation/>
   <Cards/>
   <AboutMe/>
-  <!-- <Servicii/> -->
+  <Servicii/>
   <!-- <Contact/> -->
   <!-- <Footer/> -->
 </main>

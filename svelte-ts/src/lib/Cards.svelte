@@ -81,7 +81,7 @@
   .cards {
     /* background-color: bisque; */
     width: 100%;
-    height: 30rem;
+    height: 35rem; /* 550px */
     /* overflow: hidden; */
     /* position: relative; */
     display: flex; /* Use flexbox to center the image horizontally and vertically */
@@ -91,7 +91,7 @@
 
   .image {
     object-fit: cover;
-    width: 25rem;
+    width: 30rem;
     border-radius: 2rem;
     position: absolute;
     opacity: 0;
@@ -123,4 +123,34 @@
   }
 
   /* ==================MOBILE========================== */
+
+  @media (max-width: 800px) {
+    .cards button {
+      display: none;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .image {
+        width: 90%;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .cards {
+        height: 30rem;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .cards {
+        height: 25rem;
+    }
+  }
+  
+  @media (max-width: 300px) {
+    .cards {
+        height: 20rem;
+    }
+  }
 </style>
