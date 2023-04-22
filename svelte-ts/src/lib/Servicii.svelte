@@ -52,11 +52,19 @@
   .title {
     padding: 1rem;
   }
+  .title h2 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 0.625rem 1.125rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+  }
 
   .table-container {
+    background-color: white;
     height: 200px;
     width: auto;
-    /* background-color: #E7DBD2; */
     text-align: center;
     font-size: 0.8125rem;
     padding: 0.625rem 1.125rem;
@@ -71,7 +79,7 @@
   }
 
   .table-container thead th {
-    background-color: #e7dbd2;
+    background-color: #e3d8cb;
     color: black;
     text-align: center;
     font-size: 0.8125rem;

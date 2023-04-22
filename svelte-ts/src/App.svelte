@@ -1,21 +1,12 @@
 <script lang="ts">
-  import Navigation from './lib/Navigation.svelte'
-  import Cards from './lib/Cards.svelte'
-  import AboutMe from './lib/AboutMe.svelte'
-  import Servicii from './lib/Servicii.svelte'
-  import Contact from './lib/Contact.svelte'
-  import Footer from './lib/Footer.svelte'
+  import { Router, Route } from 'svelte-routing'
+  import Home from './HomePage.svelte';
+  import About from './AboutPage.svelte';
+  import Contact from './ContactPage.svelte';
 </script>
 
-<main>
-  <Navigation/>
-  <Cards/>
-  <AboutMe/>
-  <Servicii/>
-  <!-- <Contact/> -->
-  <!-- <Footer/> -->
-</main>
-
-<style>
-
-</style>
+<Router>
+  <Route component={Home} />
+  <Route path="/about" component={About} />
+  <Route path="/contact" component={Contact} />
+</Router>

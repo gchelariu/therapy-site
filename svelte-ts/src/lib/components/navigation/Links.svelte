@@ -1,13 +1,17 @@
+<script>
+  import { link, links } from 'svelte-routing'
+</script>
+
 <div class="links" id="navLinks">
   <ul>
     <li >
-      <a href="#aboutMe"> Despre mine </a>
+      <a href="/about" use:link> Despre mine </a>
     </li>
     <li >
-      <a href="#servicii"> Servicii </a>
+      <a href="/" use:link> Servicii </a>
     </li>
     <li >
-      <a href="#contact"> Contact </a>
+      <a href="/contact" use:link> Contact </a>
     </li>
   </ul>
 </div>

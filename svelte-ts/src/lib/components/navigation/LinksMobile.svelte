@@ -1,4 +1,5 @@
 <script>
+  import { link, links } from "svelte-routing";
   let showMobileMenu = false;
 
   function toggleMenu() {
@@ -11,13 +12,13 @@
     <!-- <button on:click={toggleMenu}><i class="fa-solid fa-xmark" /></button> -->
     <ul>
       <li>
-        <a on:click={toggleMenu} href="#aboutMe"> Despre mine </a>
+        <a on:click={toggleMenu} href="/about" use:link> Despre mine </a>
       </li>
       <li>
-        <a on:click={toggleMenu} href="#servicii"> Servicii </a>
+        <a on:click={toggleMenu} href="/" use:link> Servicii </a>
       </li>
       <li>
-        <a on:click={toggleMenu} href="#contact"> Contact </a>
+        <a on:click={toggleMenu} href="/contact" use:link> Contact </a>
       </li>
     </ul>
   </div>
