@@ -52,6 +52,7 @@
   .title {
     padding: 1rem;
   }
+  
   .title h2 {
     background-color: white;
     color: black;
