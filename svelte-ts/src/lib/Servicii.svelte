@@ -14,24 +14,30 @@
       </thead>
       <tbody>
         <tr>
-          <td>Psihoterapie individuala</td>
-          <td>200</td>
-          <td>50</td>
-          <td>Online/Cabinet</td>
-        </tr>
-        <tr>
           <td
             >Abonament Psihoterapie <br />(4 sedinte cu valabilitate 30 zile)</td
           >
           <td>600</td>
           <td>50</td>
-          <td>Online/Cabinet</td>
+          <td>Online</td>
+        </tr>
+        <!-- <tr>
+          <td>Psihoterapie individuala</td>
+          <td>300</td>
+          <td>50</td>
+          <td>Cabinet</td>
+        </tr> -->
+        <tr>
+          <td>Psihoterapie individuala</td>
+          <td>200</td>
+          <td>50</td>
+          <td>Online</td>
         </tr>
         <tr>
           <td>Consiliere psihologica</td>
           <td>150</td>
           <td>50</td>
-          <td>Online/Cabinet</td>
+          <td>Online</td>
         </tr>
       </tbody>
     </table>
