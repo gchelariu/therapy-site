@@ -58,6 +58,7 @@
   .links button {
     display: block;
     text-decoration: none;
+    color: black;
     font-size: 1.2rem;
     background-color: #e3d8cb;
     padding: 0.625rem 1.125rem;

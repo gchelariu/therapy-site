@@ -126,13 +126,16 @@
 
   @media (max-width: 800px) {
     .cards button {
-      display: none;
+      /* display: none; */
+      margin-top: auto;
+      margin-right: 50px;
+      margin-left: 50px;
     }
   }
 
   @media (max-width: 600px) {
     .image {
-        width: 90%;
+        width: 80%;
     }
   }
 
